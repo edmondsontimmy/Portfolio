@@ -2,24 +2,27 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio | Timothy Edmondson</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/cosmo/bootstrap.css">
 </head>
 <body>
 
 	<header id="masthead">
 		<div class="container">
-			<a href="index.html" id="logo">Timothy Edmondson</a>
+			<a href="index.html" id="portlogo">Timothy</a>
 			<nav>
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
+				<a href="index.html" class="btn btn-primary">About</a>
+				<a href="portfolio.html" class="btn btn-success">Portfolio</a>
+				<a href="contact.html" class="btn btn-warning">Contact</a>
 			</nav>
 		</div>
 	</header>
 
 	<main class="container">
-		<section class="main-section">
+		<div class="row">
+		<section class="main-section col-lg-8.5">
 			<h1>Portfolio</h1>
 
 			<div class="work">
@@ -50,20 +53,21 @@
 
 		</section>
 
-		<section class="sidebar">
+		<section class="sidebar col-lg-2.5">
 			<div id="connect">
-				<h2>Connect with Me</h2>
+				<h3>Connect With Me</h3>
 
 				<a href="https://github.com/edmondsontimmy"><img src="assets/images/github-128.png" class="social" alt="Github"></a>
 				<a href="https://www.linkedin.com/in/timothy-edmondson-ab6927124"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn"></a>
 				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
 			</div>
 		</section>
+		</div>
 	</main>
 
-	<footer>
+	<footer id="portfooter">
 		<div class="container">
-			&copy; Copyright 2016 Timothy Edmondson
+			<h4>&copy; Copyright 2016 Timothy Edmondson</h4>
 		</div>
 	</footer>
 </body>
